@@ -22,7 +22,7 @@ ui:
 
 connectInject:
   enabled: true
-  default: true
+  default: false
   centralConfig:
     enabled: true
     defaultProtocol: "http"
