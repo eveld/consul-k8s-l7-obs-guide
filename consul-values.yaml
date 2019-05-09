@@ -2,9 +2,6 @@
 
 global:
   datacenter: dc1
-  image: "judithpatudith/consul-dev:metrics"
-  imageK8S: "judithpatudith/consul-dev:k8s-metrics"
-  pullPolicy: Never
 
 server:
   replicas: 1
