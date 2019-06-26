@@ -34,6 +34,7 @@ spec:
         app: emojify-website
       annotations:
         "consul.hashicorp.com/connect-inject": "true"
+        "consul.hashicorp.com/connect-service-protocol": "http"
     spec:
       volumes:
       - name: config
